@@ -1,5 +1,4 @@
 document.addEventListener('scroll', ()=> {
-  
     let top  = window.pageYOffset + window.innerHeight;
     let  isPhoneVisible = top > document.querySelector('.main-steps').offsetTop;
     let isCitiesVisible = top > document.querySelector('.main-locations').offsetTop;
